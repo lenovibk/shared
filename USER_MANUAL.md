@@ -1,10 +1,17 @@
-# LiquidVoice User Manual (Accurate Guide)
+## 1. Getting Started
+To access the platform, navigate to: **[https://voice.liquidemr.com/](https://voice.liquidemr.com/)**
 
-Welcome to **LiquidVoice**. This manual is designed to help you navigate the platform's actual interface and understand its core features.
+### Login Credentials (Example Plans):
+- **Trial Plan**: 
+  - Username: `pierre@liquidemr.com`
+  - Password: `123456`
+- **Pro Plan**: 
+  - Username: `mr.lenovi@gmail.com`
+  - Password: `123456`
 
 ---
 
-## 1. Dashboard Overview
+## 2. Dashboard Overview
 The Dashboard provides a bird's-eye view of your clinic's AI performance.
 
 ### Key Metrics:
@@ -74,6 +81,15 @@ sequenceDiagram
 
 ---
 
+## 7. Account Plans
+- **Trial Plan**: Access to standard assistant features for a limited period (14 days).
+- **Pro Plan**: Full access to all advanced features, including priority AI processing and extended token limits.
+- **Organization ID**: Every clinic is assigned a unique `OrgId` to ensure data isolation and security.
+- **Granularity**: Calculated per second ($0.0005/sec).
+- **Details**: Every log includes Assistant Name, Patient ID, exact Duration, and Final Cost.
+
+---
+
 ## 4. Call Logs & Billing
 Review every conversation in the **Logs** section to monitor quality and spend.
 
@@ -86,4 +102,3 @@ Review every conversation in the **Logs** section to monitor quality and spend.
 
 > [!IMPORTANT]
 > **Privacy & Security**: All data is partitioned by your **Organization ID (OrgId)**. Your scripts and patient data are never shared with other clinics using the same sandbox pool.
-
