@@ -7,8 +7,6 @@ Welcome to **LiquidVoice**. This manual is designed to help you navigate the pla
 ## 1. Dashboard Overview
 The Dashboard provides a bird's-eye view of your clinic's AI performance.
 
-![Dashboard Status](file:///C:/Users/lenovi/.gemini/antigravity/brain/55ecd5ae-fe51-46be-93ec-99078dc8e3ce/accurate_dashboard_ui_1769741017765.png)
-
 ### Key Metrics:
 - **Active Assistants**: Real-time count of live AI configurations.
 - **Minutes Used**: Total usage tracked for billing.
@@ -88,3 +86,4 @@ Review every conversation in the **Logs** section to monitor quality and spend.
 
 > [!IMPORTANT]
 > **Privacy & Security**: All data is partitioned by your **Organization ID (OrgId)**. Your scripts and patient data are never shared with other clinics using the same sandbox pool.
+
